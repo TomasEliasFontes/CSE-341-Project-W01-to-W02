@@ -1,0 +1,22 @@
+{
+  "name": "cse-341-project-w01-to-w02",
+  "version": "1.0.0",
+  "description": "Week 01 and 02 Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasEliasFontes/CSE-341-Project-W01-to-W02.git"
+  },
+  "author": "Tomás Fontes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasEliasFontes/CSE-341-Project-W01-to-W02/issues"
+  },
+  "homepage": "https://github.com/TomasEliasFontes/CSE-341-Project-W01-to-W02#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
