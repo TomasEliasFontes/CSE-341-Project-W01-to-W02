@@ -5,8 +5,14 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use('/', require('./routes'));
+// Middleware: parse JSON bodies
+app.use(express.json());
 
+//Swagger routes
+app.use('/', require('./routes/swagger'));
+
+// Routes to POST, GET, PUT and DELETE.
+app.use('/', require('./routes'));
 
 
 mongodb.intDb((err) => {
